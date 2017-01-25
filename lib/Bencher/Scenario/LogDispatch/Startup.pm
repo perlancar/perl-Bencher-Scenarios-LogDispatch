@@ -21,7 +21,10 @@ our @modules = qw(
 
 our $scenario = {
     summary => 'Benchmark module startup overhead of some Log::Dispatch modules',
-
+    # minimum versions
+    modules => {
+        'Log::Dispatch::FileWriteRotate' => {version=>'0.04'},
+    },
     module_startup => 1,
 
     participants => [
