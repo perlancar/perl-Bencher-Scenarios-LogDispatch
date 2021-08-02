@@ -2,3 +2,4 @@ Bencher-Scenarios-LogDispatch-*
 .build
 *~
 nytprof*
+.DS_Store
